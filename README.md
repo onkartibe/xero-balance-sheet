@@ -23,7 +23,7 @@ This command will build the Docker images for both the backend and frontend serv
         Mock Xero API: The mock Xero API is available at http://localhost:3000.
 
 
-Running Tests
+**Running Tests**
 
 If you need to run tests for your application (e.g., Jest for frontend), ensure that the required dependencies are installed and that your Docker environment is set up for testing.
 
@@ -37,8 +37,12 @@ Run the Tests
 
     npm test
 
-Troubleshooting
+**Troubleshooting**
 
     Port Conflicts: Ensure that ports 3000, 4000, and 8000 are not being used by other services on your host machine.
     Network Issues: If you experience network-related issues, ensure Docker has the necessary permissions and network configurations.
     Running test: There has been instaces where JEST cant run test becauses well known problem ECMAScript Modules and node modules. 
+
+**UI screen**
+![Screenshot 2024-08-25 at 10 14 21 PM](https://github.com/user-attachments/assets/e282d1e7-ee86-4c26-b928-1cc1bcdb5b55)
+
